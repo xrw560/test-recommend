@@ -8,7 +8,7 @@ import org.apache.mahout.cf.taste.model.PreferenceArray;
 
 /**
  * Created by zhouning on 2017/12/12.
- * desc:
+ * desc:实例2：data nodel -- 所有用户的偏好数据如何保存？
  */
 public class CreateGenericDataModel {
 

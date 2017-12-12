@@ -17,7 +17,7 @@ import java.util.List;
 
 /**
  * Created by zhouning on 2017/12/12.
- * desc:
+ * desc:实例3：Recommender -- 通过User-based协同过滤推荐算法给用户1推荐20个商品
  */
 public class RecommenderIntro {
 

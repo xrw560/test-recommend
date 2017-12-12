@@ -19,7 +19,7 @@ import java.io.File;
 
 /**
  * Created by zhouning on 2017/12/12.
- * desc:
+ * desc:实例4：推荐模型评估 -- 评估实例3的推荐系统的优劣
  */
 public class EvaluatorIntro {
     private EvaluatorIntro() {
