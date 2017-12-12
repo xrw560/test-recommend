@@ -27,7 +27,7 @@ public class MovieLensDataModel extends FileDataModel {
         }
         try (Writer writer = new OutputStreamWriter(new FileOutputStream(resultFile), Charsets.UTF_8)) {
             for (String line : new FileLineIterable(originalFile, false)) {
-                int lastIndex = line.indexOf(COLON_DELIMITER);
+                int lastIndex = line.lastIndexOf(COLON_DELIMITER);
 
                 if (lastIndex < 0) {
                     System.out.println("Invalid data! data: " + line);
