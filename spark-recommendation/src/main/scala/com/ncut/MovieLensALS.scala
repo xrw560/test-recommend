@@ -8,7 +8,7 @@ import org.apache.spark.mllib.evaluation.RegressionMetrics
 import org.apache.spark.mllib.recommendation.{ALS, MatrixFactorizationModel, Rating}
 import org.apache.spark.rdd.RDD
 
-import scala.util.Random
+import scala.util.Random 
 
 /**
   * Created by zhouning on 2017/12/13.
